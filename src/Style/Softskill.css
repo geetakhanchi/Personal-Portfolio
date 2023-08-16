@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.softskill li {
+  margin-top: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+   max-width: max-content;
+  color: rgb(198, 114, 244);
+  margin-right: 20px;
+}
+
+.softskill li:hover{
+    color: teal;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:720px)  {
+    .softskill li{
+        font-size: 16px;
+        line-height: .7;   
+        list-style: none; 
+    
+    }
+}

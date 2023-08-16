@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.social-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social_div {
+  padding: 6px;
+
+}
+.social_icon {
+  width: 50px;
+  filter: drop-shadow(.5rem 0 0.5rem gray);
+  
+}
+.social_icon:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+  .social_icon {
+    width: 25px;
+  }
+  .social_icon:hover {
+    cursor: pointer;
+  }
+}

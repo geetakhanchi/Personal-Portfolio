@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  /* justify-content: space-between; */
+  flex: 1;
+
+  /* position: relative; */
+}
+
+.header {
+  display: flex;
+  padding: 6px;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid #e5e5e5; */
+  z-index: 1;
+  opacity: 9;
+  background-color: #0c192c;
+  /* color: white; */
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+  max-height: 58px;
+}
+
+
+
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.mob-menu {
+  display: none;
+}
+
+.web-menu {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  /* font-size: 36px;
+  color: blueviolet;
+  font-weight: 800; */
+}
+
+.logo img {
+  width: 20%;
+}
+/* .logo2 img{
+  width: 10%;
+  display: flex;
+ align-items: flex-start;
+} */
+.Hamburger{
+  color: white;
+}
+
+@media only screen and (max-width: 720px) {
+  .mob-menu {
+    display: flex;
+  }
+
+  .web-menu {
+    display: none;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+}
