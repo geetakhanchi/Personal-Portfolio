@@ -5,7 +5,6 @@ import Navbar from "./Navbar";
 import About from "../Utils/About";
 import Projects from "../Utils/Projects";
 import Skills from "../Utils/Skills";
-import GithubCalender from "../data/GithubCalender";
 // import Work from "../Utils/Work";
 import Contact from "../Utils/Contact";
 import Softskill from "../Utils/Softskill";
@@ -37,10 +36,6 @@ const Home = () => {
           </section>
         <section id="Static_section">
             <StaticSection/>
-          </section>
-        
-          <section id="GithubCalender">
-            <GithubCalender />
           </section>
           <section id="contact">
             <Contact />
