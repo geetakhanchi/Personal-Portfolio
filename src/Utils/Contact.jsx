@@ -13,11 +13,11 @@ const Contact = () => {
           <Social />
           <div className='contact-details'>
           <div><i class="fi fi-rr-envelope"></i> gitukhanchi99@gmail.com</div>
-          <div> <i class="fi fi-rr-phone-call"></i> +91 7988659262</div>
+          <div> <i class="fi fi-rr-phone-call"></i> +91 7703946643</div>
           </div>
         </div>
         <div className='contact_right'>
-          <a download href={require("../assets/Geeta-cv1.pdf")}>
+          <a download href={require("../assets/Geeta-CV.pdf")}>
             <i class='fi-rr-cloud-download download_icon' />
             Download Resume</a>
         </div>
